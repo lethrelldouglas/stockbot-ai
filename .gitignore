@@ -1,0 +1,21 @@
+# ---- SECRETS: never commit ----
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# ---- runtime state / data (machine-local) ----
+state.json
+last_analysis.json
+trades_log.csv
+KILL_SWITCH
+*.log
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
